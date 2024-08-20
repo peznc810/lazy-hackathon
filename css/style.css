@@ -1,16 +1,15 @@
 @charset "UTF-8";
-/* ------- Variable ------- */
-/* ------- media query ------- */
-/* ------- mixins ------- */
-/* size */
-/* pseudo */
-/* position */
-/* icon */
-/* ------- extends ------- */
-.team__item .team__btn, .judge__card .btn, .subscribe__input button, .nav .navbar, .team__item, .team__pic::after, .judge__item, .judge__item .pic img, .judge__item .pic::before {
-  -webkit-transition: all .4s;
-  transition: all .4s;
-}
+  .team__item .team__btn,
+  .judge__card .btn,
+  .subscribe__input button,
+  .nav .navbar, .team__item,
+  .team__pic::after,
+  .judge__item,
+  .judge__item .pic img,
+  .judge__item .pic::before {
+    -webkit-transition: all .4s;
+    transition: all .4s;
+  }
 
 html,
 body, ul {
